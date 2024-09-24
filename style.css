@@ -747,6 +747,11 @@ footer
         padding-top: 10rem;
     }
 
+    .home__left
+    {
+        max-width: 100%;
+    }
+
     .home__left h1
     {
         font-size: 1.7rem;
@@ -816,6 +821,12 @@ footer
     .footer__container p 
     {
         text-align: center;
+    }
+
+    .btn__box
+    {
+        gap: 1rem;
+        width: 100%;
     }
 
 }
