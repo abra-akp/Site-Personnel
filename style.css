@@ -294,9 +294,19 @@ header.sticky
     width: 25rem;
     height: 25rem;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 55% 45% 55% 45%;
     border: solid 5px var(--body--color);
     outline: solid 5px var(--text-color-third);
+    animation: animateImg 6s ease-in-out infinite;
+}
+
+
+@keyframes animateImg {
+    50%
+    {
+        transform: translateY(10px);
+        border-radius: 45% 55% 45% 55%;
+    }
 }
 
 .scroll
