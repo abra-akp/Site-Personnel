@@ -646,10 +646,11 @@ footer
         margin: 0;
     }
 
-    .down__cv
+    .header__container .down__cv
     {
         display: none;
     }
+
 
     .nav__links
     {
